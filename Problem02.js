@@ -17,5 +17,5 @@ function sendNotification(email) {
 }
 
 
-console.log(sendNotification('imtiaz@gmail.com'));
+console.log(sendNotification('imtiaz@@gmail.com'));
 console.log(sendNotification('imtiazgmail.com'));

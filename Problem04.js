@@ -23,7 +23,7 @@ function calculateFinalScore(obj) {
 	}
     
     
-    if( FinalScore > 80)
+    if( FinalScore => 80)
     {
         return true;
     }
@@ -35,4 +35,4 @@ function calculateFinalScore(obj) {
 console.log(calculateFinalScore({ name: "Rajib", testScore: 45, schoolGrade: 25, isFFamily: true }));
 console.log(calculateFinalScore({ name: "Rajib", testScore: 45, schoolGrade: 25, isFFamily: false }));  
 console.log(calculateFinalScore("hello"));                       	 
-console.log(calculateFinalScore({ name: "Rajib", testScore: 15, schoolGrade: 25, isFFamily: true }));
+console.log(calculateFinalScore({ name: "Rajib", testScore: 45, schoolGrade: 15, isFFamily: true }));
