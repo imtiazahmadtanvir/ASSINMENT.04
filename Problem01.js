@@ -1,5 +1,5 @@
 
-//Problem:Tax Calculator
+//Problem 01: Tax Calculator
 
 function calculateTax(income, expenses) {
    
