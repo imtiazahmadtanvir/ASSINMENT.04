@@ -1,4 +1,6 @@
 
+//Problem-03: Checking Digits Inside a Name
+
 
 function checkDigitsInName(name) {
 
@@ -19,3 +21,10 @@ function checkDigitsInName(name) {
 
 }
 
+console.log(checkDigitsInName('Raj123'));	 
+console.log(checkDigitsInName('n9ayeem'));
+console.log(checkDigitsInName('e1mu3')); 	 
+console.log(checkDigitsInName('Suman'));
+console.log(checkDigitsInName('Name2024'));  
+console.log(checkDigitsInName('!@#'));  	 
+console.log(checkDigitsInName(['Raj'])); 	

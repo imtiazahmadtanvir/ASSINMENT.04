@@ -1,5 +1,5 @@
 
-
+//Problem:Tax Calculator
 
 function calculateTax(income, expenses) {
    
@@ -11,3 +11,8 @@ function calculateTax(income, expenses) {
 	return tax;
 }
 
+
+console.log(calculateTax(10000, 3000));
+console.log(calculateTax(10, 10));
+console.log(calculateTax(-10, 10));
+console.log(calculateTax(100, 10));  

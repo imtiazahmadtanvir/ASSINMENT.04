@@ -1,4 +1,5 @@
 
+//Problem-02: Notification Generator 
 
 function sendNotification(email) {
 
@@ -15,3 +16,6 @@ function sendNotification(email) {
     else  return "Invalid Email";
 }
 
+
+console.log(sendNotification('imtiaz@gmail.com'));
+console.log(sendNotification('imtiazgmail.com'));
